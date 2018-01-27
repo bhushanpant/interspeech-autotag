@@ -83,7 +83,7 @@ def getCleanTweets(dataFrame):
     return dataFrame
 
 
-
+'''
 def main():
     obj = databaseFunctions.DatabaseFunction('abc')
     df = obj.getSQLData()
@@ -92,3 +92,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+'''

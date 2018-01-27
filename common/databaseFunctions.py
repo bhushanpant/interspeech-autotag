@@ -18,6 +18,6 @@ class DatabaseFunction(object):
     def getSQLData(self):
         mysql = self.sqlAlchemyMySQL()
         print ("Fetching data from MySQL")
-        df = pd.read_sql('select * from twitter_corpus limit 10000',mysql)
+        df = pd.read_sql('select * from twitter_corpus limit 50000',mysql)
         return df
 
